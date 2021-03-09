@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "pforret/wp_rest_publisher",
+    "description": "Wordpress REST API Publisher",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "pforret",
+        "wp_rest_publisher"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/pforret/wp_rest_publisher",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Peter Forret",
+            "email": "peter@forret.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Pforret\\WpRestPublisher\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Pforret\\WpRestPublisher\\Tests\\": "tests"
         }
     },
     "scripts": {

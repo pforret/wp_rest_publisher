@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Pforret\WpRestPublisher\Tests;
 
 use PHPUnit\Framework\TestCase;
 
